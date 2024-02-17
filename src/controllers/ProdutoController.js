@@ -1,6 +1,6 @@
 import produto from "../models/produto.js";
 
-const control = {
+const controllerProduto = {
     async List(req, res) {
         res.header("Acess-Control-Allow-Origin", "*");
         res.header(
@@ -64,3 +64,5 @@ const control = {
         }
     },
 };
+
+export default controllerProduto
