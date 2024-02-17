@@ -17,7 +17,7 @@ Produto.init(
         },
         DataCriacao: {
             type: Sequelize.DATE,
-            allowNull: true,
+            allowNull: false,
         },
         DataAtualizacao: {
             type: Sequelize.DATE,
@@ -25,8 +25,10 @@ Produto.init(
         },
     },
     {
-        sequelize: database,
+        sequelize: db,
         modelName: "tbProduto",
         schema,
     }
 );
+
+export default Produto;
