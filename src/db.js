@@ -5,7 +5,6 @@ const db = new Sequelize("armazem", "ajpf", "", {
 });
 
 try {
-    console.log('ERR')
     await db.authenticate();
     console.log("Connection has been established successfully.");
 } catch (error) {

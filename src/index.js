@@ -14,5 +14,5 @@ api.get("/home", (req, res) => {
 });
 
 api.listen(port, () => {
-    console.log(`server running on http://localhost:${port}/`);
+    console.log(`the server is running at http://localhost:${port}/`);
 });
