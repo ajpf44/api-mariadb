@@ -16,5 +16,13 @@
   },
   "author": "AJPF",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajpf44/api-mariadb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajpf44/api-mariadb/issues"
+  },
+  "homepage": "https://github.com/ajpf44/api-mariadb#readme",
   "description": ""
 }
