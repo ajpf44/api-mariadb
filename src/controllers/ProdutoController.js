@@ -18,6 +18,7 @@ const controllerProduto = {
     async Create(req, res) {
         res.header("Acess-Control-Allow-Origin", "*");
         res.header("Acess-Control-Allow-Methods", "GET,PUT,POST,DELETE");
+        console.log('Chegou no create')
         try {
             const produtos = await produto.create({
                 Descricao: req.body.Descricao,
